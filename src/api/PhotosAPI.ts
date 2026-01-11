@@ -24,7 +24,7 @@ export const getPhotosbyGroup = async(section:string, group:string): Promise<IPh
 export const getPhotosBySection = async(section: string):Promise<ISectionPhotos> => {
     try {
         const res = await fetch(`${API_URL}/gallery/Preseccion/${section}`, {
-            next: { revalidate: 1200}
+           cache: "no-store"
         });
 
         if (!res.ok) {
@@ -51,7 +51,7 @@ export const getPhotosBySection = async(section: string):Promise<ISectionPhotos>
 export const getPhotosHome = async(section: string):Promise<IPhotos[]> => {
     try {
         const res = await fetch(`${API_URL}/gallery/Home/${section}`, {
-            next: { revalidate: 1200}
+            cache: "no-store"
         });
 
         if (!res.ok) {
