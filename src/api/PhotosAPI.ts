@@ -5,7 +5,7 @@ const API_URL = process.env.NEXT_PUBLIC_API_URL
 export const getPhotosbyGroup = async(section:string, group:string): Promise<IPhotos[]> => {
     try {
         const res = await fetch(`${API_URL}/gallery/${section}/${group}`, {
-            next: { revalidate: 1200 }
+            cache: "no-store"
         });
 
         if (!res.ok) {
