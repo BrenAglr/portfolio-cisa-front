@@ -14,7 +14,7 @@ export const AcercaIntro: React.FC = () => {
     >
         <div className="w-40 h-40 md:w-60 md:h-60 relative rounded-full overflow-hidden">
             <Image
-            src="/photos/cipri5.jpg" //
+            src="/photos/cipri2.jpg" //
             alt="Foto de la fotógrafa"
             fill
             className="object-cover"
