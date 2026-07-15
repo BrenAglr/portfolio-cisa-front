@@ -5,7 +5,9 @@ export const ContactInfo: React.FC = () => {
   return (
     <div className="space-y-2">
       <p className="text-base">cisa.ph07@gmail.com</p>
-      <p className="text-base">+54 261 541 6440</p>
+      <Link href="https://wa.me/542615416440" className="text-sm ">
+        +54 261 541 6440
+      </Link>
       <Link href="/contact" className="text-sm ">
         Contacto
       </Link>

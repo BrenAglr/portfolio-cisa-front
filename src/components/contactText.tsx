@@ -24,7 +24,14 @@ export const ContactText: React.FC = () => {
             cisa.ph07@gmail.com
           </h4>
           <h4 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-3 leading-snug">
-            +54 261 541 6440
+            <a
+              href="https://wa.me/542615416440"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Whatsapp"
+            >
+                +54 261 541 6440
+            </a>
           </h4>
 
           <div className="flex gap-4 my-4">
