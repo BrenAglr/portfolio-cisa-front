@@ -11,7 +11,7 @@ const AcercaPage = () => {
   return (
     <section className="w-full min-h-[90vh] flex flex-col lg:flex-row px-8 py-8 gap-12 relative bg-cover bg-center bg-amber-100">
        <Image
-            src="/photos/decorativa.jpg"
+            src="/photos/fondo2.jpg"
             alt="Fondo"
             fill
             className="object-cover object-center z-0"
