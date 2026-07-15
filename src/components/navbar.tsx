@@ -31,7 +31,7 @@ export const Navbar: React.FC = () => {
 
   const sections = [
     { slug: "Eventos-sociales", label: "Eventos sociales" },
-    { slug: "Naturaleza", label: "Naturaleza" },
+    { slug: "Viajes-y-naturaleza", label: "Viajes y naturaleza" },
     { slug: "Foto-producto", label: "Foto producto" },
     { slug: "Sesiones", label: "Sesiones de fotos" },
     { slug: "Contenido-para-redes", label: "Contenido para redes" },
