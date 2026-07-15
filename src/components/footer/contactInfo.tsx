@@ -8,6 +8,7 @@ export const ContactInfo: React.FC = () => {
       <Link href="https://wa.me/542615416440" className="text-sm ">
         +54 261 541 6440
       </Link>
+      <br />
       <Link href="/contact" className="text-sm ">
         Contacto
       </Link>
